@@ -145,6 +145,6 @@ Combining quantitative metrics with user sentiment provides a more complete unde
 
 ## 👨‍💻 Author
 
-[Your Name]
+George C A
 
 ---
