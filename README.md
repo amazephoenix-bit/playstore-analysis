@@ -1,150 +1,31 @@
 # 📊 Google Play Store EDA & Dashboard Project
 
-## 📌 Project Title
-
 **What Drives App Success on the Google Play Store?**
 
----
-
 ## 📖 Overview
-
-This project performs an **Exploratory Data Analysis (EDA)** on Google Play Store apps and user reviews to identify key factors influencing app success.
-
-The analysis combines:
-
-* App-level data (ratings, installs, price, category)
-* User sentiment data (reviews, polarity)
-
-The final output is an **interactive Power BI dashboard** that provides actionable insights.
-
----
+This project provides an in-depth **Exploratory Data Analysis (EDA)** on 10,000+ Google Play Store apps to uncover the drivers of app performance and user success. By merging app-level metrics with sentiment data from user reviews, this study offers a holistic view of the Android app ecosystem.
 
 ## 🎯 Objectives
+- Identify top-performing app categories by installs and user engagement.
+- Analyze the correlation between star ratings, user sentiment, and total downloads.
+- Evaluate the market share and performance differences between **Free** and **Paid** apps.
+- Extract actionable business insights for app developers and product managers.
 
-* Identify which app categories perform best
-* Analyze relationship between ratings and installs
-* Compare performance of free vs paid apps
-* Evaluate whether user sentiment aligns with ratings
-* Understand key drivers of app success
+## 📁 Key Deliverables
+- **[Summary Business Report](summary_report.md):** Strategic findings and recommendations.
+- **Interactive Power BI Dashboard:** A visual exploration of the dataset (accessible via `.pbix` file).
+- **Python Analysis Notebook:** Data cleaning, merging, and statistical analysis.
 
----
+## 🛠 Tech Stack
+- **Data Analysis:** Python (Pandas, NumPy)
+- **Visualization:** Matplotlib, Seaborn, Power BI
+- **Tools:** Jupyter Notebook / Colab
 
-## 📂 Dataset
-
-### 1. Google Play Store Dataset
-
-Contains:
-
-* App name
-* Category
-* Rating
-* Reviews
-* Installs
-* Price
-* Type (Free/Paid)
-
-### 2. User Reviews Dataset
-
-Contains:
-
-* App
-* Sentiment (Positive/Negative/Neutral)
-* Sentiment Polarity
-* Subjectivity
+## 📋 Key Insights Preview
+- Free apps dominate over **90%** of the market share in terms of downloads.
+- Category selection is the #1 predictor of initial install velocity.
+- User sentiment reveals critical usability issues that star ratings often mask.
 
 ---
-
-## 🧹 Data Cleaning
-
-* Removed missing/null values
-* Converted:
-
-  * Installs → numeric
-  * Price → numeric
-  * Reviews → numeric
-* Removed invalid entries (e.g., “Free” in numeric columns)
-* Merged datasets using **App name**
-
----
-
-## 📊 Analysis Performed
-
-### ✔ Category Analysis
-
-* Communication and Social apps dominate installs
-
-### ✔ Rating vs Installs
-
-* High ratings do not always guarantee higher downloads
-
-### ✔ Free vs Paid Apps
-
-* Free apps dominate total downloads and market share
-
-### ✔ Sentiment Analysis
-
-* User sentiment varies even among highly rated apps
-
----
-
-## 📈 Dashboard Features (Power BI)
-
-* KPI Cards:
-
-  * Average Rating
-  * Total Downloads
-  * Total Apps
-
-* Visualizations:
-
-  * Top Categories by Installs
-  * Free vs Paid App Performance
-  * Rating vs Installs
-  * Rating vs Sentiment
-
-* Interactive Filter:
-
-  * Category slicer
-
----
-
-## 🧠 Key Insights
-
-* App success is strongly influenced by **category and accessibility**
-* Free apps significantly outperform paid apps in downloads
-* Ratings alone are not a reliable indicator of success
-* User sentiment provides deeper insight than ratings
-
----
-
-## 🛠 Tools Used
-
-* Python (Pandas, Matplotlib, Seaborn)
-* Power BI
-* Jupyter Notebook
-
----
-
-## 🎤 Conclusion
-
-This project demonstrates that:
-
-> **App success is driven more by accessibility and category demand than by ratings alone.**
-
-Combining quantitative metrics with user sentiment provides a more complete understanding of app performance.
-
----
-
-## 📎 Future Improvements
-
-* Include time-based trends
-* Perform predictive modeling
-* Add revenue analysis
-
----
-
-## 👨‍💻 Author
-
-George C A
-
----
+**Author:** George C A  
+*Kristu Jayanti University*
